@@ -53,6 +53,9 @@ Added optional parameter to filter by type.  See: https://nwnlexicon.com/index.p
 Fixed so it returns a random location in a full 360 range instead of 180.
 
 **Before:**
+
 ![GetRandomLocation_before](images/GetRandomLocation_before.png)
+
 **After:**
+
  ![GetRandomLocation_after](images/GetRandomLocation_after.png)
