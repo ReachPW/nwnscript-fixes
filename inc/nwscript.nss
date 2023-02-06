@@ -11,7 +11,7 @@
 ////////////////////////////////////////////////////////
 // Added by nwnscript-fixes
 // our current version
-int NWNSF_VERSION = 1;
+int NWNSF_VERSION = 2;
 // minor version of nwnscript.nss that this is based on
 int NWNSF_BASED = 34;
 ////////////////////////////////////////////////////////
