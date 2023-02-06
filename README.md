@@ -48,3 +48,8 @@ See: https://nwnlexicon.com/index.php?title=ACTION_MODE
 
 Added FEAT_SKILL_FOCUS_APPRAISE.  It's referenced as FEAT_SKILLFOCUS_APPRAISE, but this new name reflects naming convetation of other FEAT_SKILL_FOCUS_XXX.
 
+#### IP_CONST_MATERIAL_*
+
+Added IP_CONST_MATERIAL_* values as they were missing.
+See: https://nwnlexicon.com/index.php?title=ItemPropertyMaterial
+Values taken from: ./pkg2.bif/iprp_material.2da
