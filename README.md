@@ -34,3 +34,17 @@ Before:
 `x2_inc_restsys.nss(685): Warning: NSC6023: Function "WMSetAreaTable" argument "nListenCheckDC" default value does not match the initializer value for a previous declaration.  The first declaration value will be used.`
 
 After:  [no warning]
+
+## nwnscript.nss
+
+### Constants 
+
+#### ACTION_MODE_DEFENSIVE_STANCE
+
+Added ACTION_MODE_DEFENSIVE_STANCE
+See: https://nwnlexicon.com/index.php?title=ACTION_MODE
+
+#### FEAT_SKILL_FOCUS_APPRAISE
+
+Added FEAT_SKILL_FOCUS_APPRAISE.  It's referenced as FEAT_SKILLFOCUS_APPRAISE, but this new name reflects naming convetation of other FEAT_SKILL_FOCUS_XXX.
+
