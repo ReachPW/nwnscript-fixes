@@ -282,7 +282,7 @@ void AnimActionStopTalking(object oFriend, int nHDiff = 0);
 
 // Play a greeting animation and possibly voicechat.
 // If a negative difference is passed in, caller will bow.
-void AnimActionPlayRandomGreeting(int nHDiff = 0);
+void AnimActionPlayRandomGreeting(int nHDiff);
 
 // Play a random farewell animation and possibly voicechat.
 // If a negative difference is passed in, caller will bow.
@@ -1291,7 +1291,7 @@ void AnimActionStopTalking(object oFriend, int nHDiff = 0)
 // Play a greeting animation and possibly voicechat.
 // If a negative hit dice difference (HD caller - HD greeted) is
 // passed in, the caller will bow.
-void AnimActionPlayRandomGreeting(int nHDiff = 0)
+void AnimActionPlayRandomGreeting(int nHDiff)
 {
 	if (Random(2) == 0 && GetAnimationCondition(NW_ANIM_FLAG_CHATTER))
 	{
