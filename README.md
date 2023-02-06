@@ -53,3 +53,6 @@ Added FEAT_SKILL_FOCUS_APPRAISE.  It's referenced as FEAT_SKILLFOCUS_APPRAISE, b
 Added IP_CONST_MATERIAL_* values as they were missing.
 See: https://nwnlexicon.com/index.php?title=ItemPropertyMaterial
 Values taken from: ./pkg2.bif/iprp_material.2da
+
+### GetFirstObjectInArea / GetNextObjectInArea
+Added optional parameter to filter by type.  See: https://nwnlexicon.com/index.php?title=GetFirstObjectInArea

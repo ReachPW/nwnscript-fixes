@@ -6995,13 +6995,15 @@ string IntToString(int nInteger);
 
 // Get the first object in oArea.
 // If no valid area is specified, it will use the caller's area.
+// - nObjectFilter: Object filter to use, noting sounds cannot be sought
 // * Return value on error: OBJECT_INVALID
-object GetFirstObjectInArea(object oArea = OBJECT_INVALID);
+object GetFirstObjectInArea(object oArea = OBJECT_INVALID, int nObjectFilter = OBJECT_TYPE_ALL);
 
 // Get the next object in oArea.
 // If no valid area is specified, it will use the caller's area.
+// - nObjectFilter: Object filter to use, noting sounds cannot be sought
 // * Return value on error: OBJECT_INVALID
-object GetNextObjectInArea(object oArea = OBJECT_INVALID);
+object GetNextObjectInArea(object oArea = OBJECT_INVALID, int nObjectFilter = OBJECT_TYPE_ALL);
 
 // Get the total from rolling (nNumDice x d2 dice).
 // - nNumDice: If this is less than 1, the value 1 will be used.
