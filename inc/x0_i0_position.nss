@@ -466,7 +466,7 @@ location GetRandomLocation(object oArea, object oSource = OBJECT_INVALID, float 
 		}
 	}
 
-	fAngle = IntToFloat(Random(361) + 1);
+	fAngle = IntToFloat(Random(360));
 
 	fOrient = IntToFloat(Random(360));
 
