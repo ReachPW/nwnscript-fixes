@@ -1,8 +1,9 @@
 # nwnscript-fixes
 
+These are non-breaking fixes, tweaks and clean ups for NWN:EE (currently targetting .34).  These should be drop in replacements for toolset or nwnsc.
 
 
-
+<hr>
 
 # Changes
 
@@ -59,3 +60,18 @@ Fixed so it returns a random location in a full 360 range instead of 180.
 **After:**
 
  ![GetRandomLocation_after](images/GetRandomLocation_after.png)
+
+
+### New variables
+
+Added these variables: 
+
+```
+////////////////////////////////////////////////////////
+// Added by nwnscript-fixes
+// our current version
+int NWNSF_VERSION = 2;
+// minor version of nwnscript.nss that this is based on
+int NWNSF_BASED = 34;
+////////////////////////////////////////////////////////
+```
