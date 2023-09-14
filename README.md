@@ -1,3 +1,7 @@
+```diff
+- **THIS IS DEPERCATED, PLEASE DO NOT USE, ONLY FOR REFERENCE** -
+```
+
 # nwnscript-fixes
 
 These are non-breaking fixes, tweaks and clean ups for NWN:EE (currently targetting .34).  These should be drop in replacements for toolset or nwnsc.
